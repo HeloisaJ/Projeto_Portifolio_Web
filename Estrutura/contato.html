@@ -2,24 +2,28 @@
 <html>
     <head>
         <meta charset="uft-8">
-        <title>Entrar em contato</title>
+        <meta name="keywords" content="Portifólio, Ciência da Computação, HTML, CSS, Projeto, Programação Web, UNICAP, Entrar em contato">
+        <meta name="description" content="projeto de portifólio desenvolvido na disciplina de programação web mobile, no curso de ciência da computação na UNICAP">
+        <meta name="author" content="Heloísa Fernanda Ferreira Jorge">
+        <link rel="stylesheet" href="/Estilos/contato.css">
     </head>
     <body>
-        <h1>Entrar em contato</h1>
-        <!--Colocar um texto aqui-->
+        <header>
+            <h1>Entrar em contato &#128232</h1>
+        </header>
         <p>
             Gostou do conteúdo do portifólio ? Ou de algum projeto ? Entre em contato comigo a partir do formulário abaixo
         </p>
         <form method="post">
             <fieldset>
                 <legend>Digite seus dados aqui</legend>
-                    <label>Nome:</label> <input type="text" name="nome"> <br/>
-                    <label>Email:</label> <input type="email" name="email"> <br/>
+                    <label>Nome:</label> <input type="text" name="nome" required> <br/> <br/>
+                    <label>Email:</label> <input type="email" name="email" required> <br/>
             </fieldset>
             <br/>
             <fieldset>
                 <legend>Digite sua mensagem</legend>
-                    <textarea rows="10" cols="60" name="mensagem"></textarea>
+                    <textarea rows="10" cols="60" name="mensagem" required></textarea>
             </fieldset>
             <br/>
             <input type="submit" name="botaoEnvio" value="Enviar">

@@ -1,0 +1,14 @@
+body{
+    color: #022728;
+}
+
+header{
+    background-color:rgb(239, 109, 131);
+    padding: 1px;
+    padding-left: 5px;
+}
+
+video{
+    margin:auto;
+    display: block;
+}
