@@ -2,18 +2,18 @@
 <html>
     <head>
         <meta charset="uft-8">
-        <title>Meu Portifólio</title>
+        <title>Meu Portifólio</title> <!--Nome da página-->
         <meta name="keywords" content="Portifólio, Ciência da Computação, HTML, CSS, Projeto, Programação Web, UNICAP">
         <meta name="description" content="projeto de portifólio desenvolvido na disciplina de programação web mobile, no curso de ciência da computação na UNICAP">
         <meta name="author" content="Heloísa Fernanda Ferreira Jorge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Estilos/pagPrincipal.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Tag para possibilitar acessibilidade ao celular-->
+        <link rel="stylesheet" href="Estilos/pagPrincipal.css"> <!--Importação do arquivo CSS-->
     </head>
     <body>
         <header>
             <h1>Meu Portifólio</h1>
 
-            <nav>
+            <nav> <!--Barra de navegação-->
                 <ul>
                     <li><a href="./Estrutura/sobre.html" target="PagPrincipal">Sobre Mim</a></li>
                     <li><a href="./Estrutura/projetos.html" target="PagPrincipal">Meus Projetos</a></li>
@@ -23,8 +23,10 @@
             </nav>
 
         </header>
+
         <br/>
-        <details>
+
+        <details> <!--Aba interativa que mostra mais informações sobre o portifólio-->
             <summary>
                 <strong>Sobre este Portifólio</strong>
             </summary>
@@ -32,10 +34,12 @@
             <p>Deseja visualizar o código de como criei este site ? Use o link do Github abaixo:</p> 
             <a href="https://github.com/HeloisaJ/Projeto_Portifolio_Web" target="_blank">Link para o projeto</a>
         </details>
+
         <br/>
-        <article> <!---->
-            <iframe width="1200" height="500" name="PagPrincipal" src="./Estrutura/sobre.html"></iframe>
-        </article>
+
+        <section> <!--Iframe responsável por mostrar as informações da página de Sobre mim, Meus Projetos, Outros Projetos e Entrar em Contato-->
+            <iframe frameBorder="0" width="1200" height="500" name="PagPrincipal" src="./Estrutura/sobre.html"></iframe>
+        </section>
 
     </body>
 </html>

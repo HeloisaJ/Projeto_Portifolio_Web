@@ -9,9 +9,13 @@ header{
     padding-left: 5px;
 }
 
-video{
-    margin:auto;
+video, img{
+    margin: auto;
     display: block;
+}
+
+figcaption{
+    text-align: center;
 }
 
 #Indice{
@@ -19,7 +23,11 @@ video{
     border: 5px double #022728;
 }
 
-.OrganizarTexto{
+p{
+    text-align: justify;
+}
+
+#OrganizarTexto{
     margin-left: 5px;
 }
 

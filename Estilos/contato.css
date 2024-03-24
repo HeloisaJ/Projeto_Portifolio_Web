@@ -2,9 +2,9 @@ body{
     color: #022728;
 }
 
-header{
+h1{
     width: auto;
     background-color:rgb(171, 107, 250);
-    padding: 1px;
+    padding: 20px;
     padding-left: 5px;
 }
