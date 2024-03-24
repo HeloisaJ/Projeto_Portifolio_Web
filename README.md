@@ -1,5 +1,7 @@
 # Projeto_Portifolio_Web
 
+Aluna: Heloísa Fernanda Ferreira Jorge
+
 Objetivo: Criar um Portfólio Pessoal Estático usando apenas HTML5 e (opcional) CSS inline ou interno documentando um projeto fictício ou real, e incorporando uma tabela para exibição de dados relevantes, além de um formulário de contato para interação com o usuário.
 
 ## Requisitos Mínimos
